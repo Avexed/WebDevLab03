@@ -1,8 +1,7 @@
 import streamlit as st
 import requests as rq
 import json as js
-res = rq.get('https://restcountries.com/v3.1/all')
-countries = res.json()
+
 
 if 'target' not in st.session_state:
     st.session_state['target'] = []
