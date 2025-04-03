@@ -29,12 +29,14 @@ if 'langDict' not in st.session_state:
 
 
 def titleSection():
-    st.header('Langs')
-    st.subheader('What Langs are spoken in you country?')
+    st.header('Languages Around the World')
+    st.subheader('What Languages are spoken near you?')
+    st.write('---')
 titleSection()
 
 def selectCountry():
-    st.text('Enter you country below.')
+    st.subheader('What Languages are Spoken in a Country?')
+    st.text('Enter your country below.')
     target = st.text_input("Country")
     if target:
         st.session_state['target'] = target
