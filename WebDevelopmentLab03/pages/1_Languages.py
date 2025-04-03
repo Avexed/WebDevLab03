@@ -67,6 +67,7 @@ def langOut():
         st.error("Country not found, please try again.")
 if st.session_state['target'] != []:
     langOut()
+    st.session_state['target'] = []:
 
 def selectContinent():
     st.subheader('Languages Spoken by Continent')
