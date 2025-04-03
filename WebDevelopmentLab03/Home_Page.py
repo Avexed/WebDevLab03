@@ -22,8 +22,8 @@ st.write("""
 Welcome to our Streamlit Web Development Lab03 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
 1. **Language Info**: What languages are spoken where? 
-2. **LLM Integration** (UNDER CONSTRUCTION): 
-3. **Chatbot (UNDER CONSTRUCTION):
+2. **LLM Integration**: (UNDER CONSTRUCTION) 
+3. **Chatbot**: (UNDER CONSTRUCTION)
 
 """)
 
