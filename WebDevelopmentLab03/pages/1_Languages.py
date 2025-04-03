@@ -103,6 +103,7 @@ def contGraph():
     st.bar_chart(data=st.session_state['langDict'], x_label='Languages', y_label='Number of Countries')
 if st.session_state['targetCont'] != []:
     contGraph()
+    st.session_state['targetCont'] = []
 
             
 
